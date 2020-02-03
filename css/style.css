@@ -188,9 +188,7 @@ a, a:hover {
 	padding: 20px;
 	text-align: center;
 }
-.centrint img{
-	box-shadow: 2px 2px 2px 2px silver;
-}
+
 
 
 /* media querie */
@@ -251,3 +249,166 @@ a, a:hover {
 		display: none;
 	}
   }
+
+
+
+
+  element.style {
+	padding: 97px;
+  }
+  
+  :root {
+	--blue: #007bff;
+	--indigo: #6610f2;
+	--purple: #6f42c1;
+	--pink: #e83e8c;
+	--red: #dc3545;
+	--orange: #fd7e14;
+	--yellow: #ffc107;
+	--green: #28a745;
+	--teal: #20c997;
+	--cyan: #17a2b8;
+	--white: #fff;
+	--gray: #6c757d;
+	--gray-dark: #343a40;
+	--primary: #007bff;
+	--secondary: #6c757d;
+	--success: #28a745;
+	--info: #17a2b8;
+	--warning: #ffc107;
+	--danger: #dc3545;
+	--light: #f8f9fa;
+	--dark: #343a40;
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+  
+  html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+  }
+
+
+.row.heading h2 {
+	color: #fff;
+	font-size: 52.52px;
+	line-height: 95px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 0 40px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.heading.heading-icon {
+	display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+	padding-bottom: 55px;
+	padding-top: 55px;
+}
+.practice-area .inner{
+	border:1px solid #999999;
+	text-align:center;
+	margin-bottom:28px;
+	padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	border: 0;
+}
+.practice-area .inner h3{
+	color:#3c3c3c;
+	font-size:24px;
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{
+	font-size:14px;
+	line-height:22px;
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+.our-webcoderskull{
+	background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
+
+}
+.our-webcoderskull .cnt-block{
+	float:left;
+	width:100%;
+	background:#fff;
+	padding:30px 20px;
+	text-align:center;
+	border:2px solid #d5d5d5;
+	margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+	width:148px;
+	height:148px;
+	border-radius:100%;
+	display:inline-block;
+	margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{
+	width:148px;
+	height:148px;
+	border-radius:100%;
+}
+.our-webcoderskull .cnt-block h3{
+	color:#2a2a2a;
+	font-size:20px;
+	font-weight:500;
+	padding:6px 0;
+	text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+	text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{
+	color:#2a2a2a;
+	font-size:13px;
+	line-height:20px;
+	font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{
+	display:inline-block;
+	width:auto;
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{
+	font-size:24px;
+	color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{
+	color:#025a8e;
+}
+
+  
