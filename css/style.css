@@ -60,6 +60,37 @@ a, a:hover {
 .menu a:hover{
 	color: #2835FF
 }
+.image_outer_container{
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 50%;
+	position: relative;
+}
+
+.image_inner_container{
+	border-radius: 50%;
+	padding: 5px;
+	background: #833ab4;
+	background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+	background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+}
+.image_inner_container img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+.image_outer_container .green_icon{
+	background-color: #4cd137;
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
+	height: 30px;
+	width: 30px;
+	border:5px solid white;
+	border-radius: 50%;
+}
 
 /*banner*/
 .banner{
@@ -153,7 +184,7 @@ a, a:hover {
 
 /*footer mise en page*/
 .footer{
-	background-color: slategray;
+	background: linear-gradient(120deg,#7f70f5,#0ea0ff);
 }
 .footer .container{
 	text-align: center;
