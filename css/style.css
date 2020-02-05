@@ -183,6 +183,9 @@ a, a:hover {
 	 margin-left: 140px;
 	 margin-right: 140px;
  }
+.map{
+	box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
 .bas1{
 	border-bottom: 2px solid silver;
 }

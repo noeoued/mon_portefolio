@@ -32,3 +32,4 @@ function resizeWindowBy(){
 function resizeWindowTo(){
     fenetre.resizeBy(900, 900);
 }
+
