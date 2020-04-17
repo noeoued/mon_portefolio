@@ -18,24 +18,22 @@ body{
     margin-left: auto;
 
 }
-.page{
-	background-image: url("../img/ia.png");
-	background-size: cover;
-	background-repeat: no-repeat;
+.bu{
+	background-color: white;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .navbar{
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #00BFA6;
 	z-index: 1;
-	top: 0;
-	position: sticky;
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%;
 
 }
-.jum{
-	padding-top: 240px;
-	color: white;
 
-}
 
 body{
 
@@ -56,18 +54,6 @@ ul li a{
 
 
 
-/*header*/
-.header{
-	background: linear-gradient(120deg,#7f70f5,#0ea0ff);
-	height: 70px;
-	line-height: 70px;
-	z-index: 1;
-	top: 0;
-	position: sticky;
-	box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-	padding-left: 40px;
-	padding-right: 40px;
-}
 .logoo{
 	font-size: 20px;
 	 letter-spacing: 1px;
@@ -205,17 +191,13 @@ h3{
 #sticky-footer {
 	flex-shrink: none;
 	position: fixed;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #00BFA6;;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	color: white;
 	text-align: center;
 
-}
-
-.cont{
-	background-image: url("../img/homo.jpg")
 }
 
 
@@ -247,40 +229,6 @@ h3{
 	}
 	
   }
-  @media screen and (max-width: 1000px){
-	.moi{
-		height: 50px;
-	}
-
-	/* .centrint img{
-		height: 50px;
-	} */
-	.tete{
-		text-align: center;
-
-	}
-	.tete img{
-		align-content: center;
-	}
-	.tiret{
-		display: none;
-	}
-
-  }
-  @media screen and (max-width:1200px){
-	  .tete{
-		  text-align: center;
-	  }
-	  .tete{
-		box-shadow: 0px 0px 0px 0px white;
-	}
-	.inner-banner img{
-		display: none;
-	}
-  }
-
-
-
 
   element.style {
 	padding: 97px;
@@ -323,122 +271,6 @@ h3{
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
   }
-
-
-.row.heading h2 {
-	color: #fff;
-	font-size: 52.52px;
-	line-height: 95px;
-	font-weight: 400;
-	text-align: center;
-	margin: 0 0 40px;
-	padding-bottom: 20px;
-	text-transform: uppercase;
-}
-ul{
-	margin:0;
-	padding:0;
-	list-style:none;
-}
-.heading.heading-icon {
-	display: block;
-}
-.padding-lg {
-	display: block;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-.practice-area.padding-lg {
-	padding-bottom: 55px;
-	padding-top: 55px;
-}
-.practice-area .inner{
-	border:1px solid #999999;
-	text-align:center;
-	margin-bottom:28px;
-	padding:40px 25px;
-}
-.our-webcoderskull .cnt-block:hover {
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-	border: 0;
-}
-.practice-area .inner h3{
-	color:#3c3c3c;
-	font-size:24px;
-	font-weight:500;
-	font-family: 'Poppins', sans-serif;
-	padding: 10px 0;
-}
-.practice-area .inner p{
-	font-size:14px;
-	line-height:22px;
-	font-weight:400;
-}
-.practice-area .inner img{
-	display:inline-block;
-}
-
-
-.our-webcoderskull{
-	background: url("../img/paris-843229_1920.jpg") no-repeat center top / cover;
-
-}
-.our-webcoderskull .cnt-block{
-	float:left;
-	width:100%;
-	background:#fff;
-	padding:30px 20px;
-	text-align:center;
-	border:2px solid #d5d5d5;
-	margin: 0 0 28px;
-}
-.our-webcoderskull .cnt-block figure{
-	width:148px;
-	height:148px;
-	border-radius:100%;
-	display:inline-block;
-	margin-bottom: 15px;
-}
-.our-webcoderskull .cnt-block img{
-	width:148px;
-	height:148px;
-	border-radius:100%;
-}
-.our-webcoderskull .cnt-block h3{
-	color:#2a2a2a;
-	font-size:20px;
-	font-weight:500;
-	padding:6px 0;
-	text-transform:uppercase;
-}
-.our-webcoderskull .cnt-block h3 a{
-	text-decoration:none;
-	color:#2a2a2a;
-}
-.our-webcoderskull .cnt-block h3 a:hover{
-	color:#337ab7;
-}
-.our-webcoderskull .cnt-block p{
-	color:#2a2a2a;
-	font-size:13px;
-	line-height:20px;
-	font-weight:400;
-}
-.our-webcoderskull .cnt-block .follow-us{
-	margin:20px 0 0;
-}
-.our-webcoderskull .cnt-block .follow-us li{
-	display:inline-block;
-	width:auto;
-	margin:0 5px;
-}
-.our-webcoderskull .cnt-block .follow-us li .fa{
-	font-size:24px;
-	color:#767676;
-}
-.our-webcoderskull .cnt-block .follow-us li .fa:hover{
-	color:#025a8e;
-}
 
 
 Edit in JSFiddle
@@ -518,5 +350,3 @@ section.pricing {
 	border-radius:50%;
 }
 
-
-  
