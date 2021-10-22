@@ -25,9 +25,7 @@ body{
 }
 
 .navbar{
-	background-color: linear-gradient(to right, #330867, #30CFD0);
-
-	/*background-color: #1100F8;*/
+    background-color: #000000;
 	z-index: 1;
 	overflow: hidden;
 	position: fixed; /* Set the navbar to fixed position */
