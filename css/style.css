@@ -25,7 +25,7 @@ body{
 }
 
 .navbar{
-	background-color: #00BFA6;
+	background-color: #1100F8;
 	z-index: 1;
 	overflow: hidden;
 	position: fixed; /* Set the navbar to fixed position */
@@ -191,7 +191,7 @@ h3{
 #sticky-footer {
 	flex-shrink: none;
 	position: fixed;
-	background-color: #00BFA6;;
+	background-color: #1100F8;
 	left: 0;
 	bottom: 0;
 	width: 100%;
